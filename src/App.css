@@ -1,0 +1,102 @@
+
+main {
+    background: goldenrod;
+    width: 100%; 
+    border-top: 2px solid #0b3d51;  
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.location-list {
+  display: flex;
+  justify-content: space-around;
+  background:  #0b3d51;
+  font-size: 1em;
+}
+
+.location-list-item {
+  margin-left: auto;
+  margin-right: auto;
+  color: goldenrod;
+}
+
+.location-list li {
+  cursor: pointer;
+}
+.location-list li:hover{
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  background: white;
+  width: 100%;
+}
+
+.showing-locations {
+  text-align: center;
+  margin: 20px 20px;
+  font-size: smaller;
+  color: goldenrod;
+}
+.showing-locations button {
+  color: #0b3d51;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+
+.search-locations {
+  
+  width: 100%;
+  padding: 20px 20px 20px 60px;
+  background-image: url('./search.svg');
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  background-size: 1.2em;
+  font-size: 1.2em;
+  border: 0;
+  outline: none; 
+
+}
+
+.infowindow {
+  color: goldenrod;
+ 
+
+}
+
+.pictures-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .location-list {
+   flex-direction: column;
+   background:  goldenrod;
+   
+  }
+
+  .location-list-item {
+    width: 100%;
+    text-align: center;
+    background:  #0b3d51;
+    margin-bottom: 5px;
+  
+  }
+
+  
+}
