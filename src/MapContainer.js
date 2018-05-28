@@ -18,7 +18,7 @@ export class MapContainer extends Component {
   render() {
   const showingLocations = this.props.showingLocations;
   const locations = this.props.locations;
-  console.log(MAP_KEY);   
+  
       
   const style = {
     width: '100vw',
